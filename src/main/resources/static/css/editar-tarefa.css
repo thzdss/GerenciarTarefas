@@ -1,0 +1,22 @@
+body {
+background-color: var(--bs-body-bg);
+transition: background-color 0.3s ease;
+}
+.task-form-container {
+max-width: 600px;
+margin: 30px auto;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+background-color: var(--bs-body-bg);
+}
+.theme-toggle {
+position: fixed;
+top: 20px;
+right: 20px;
+cursor: pointer;
+z-index: 1000;
+}
+.navbar {
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
