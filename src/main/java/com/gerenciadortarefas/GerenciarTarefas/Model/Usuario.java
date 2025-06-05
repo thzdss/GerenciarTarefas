@@ -4,12 +4,13 @@ import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
 @Data
 @Entity
-@Table(name = "usuario") // Renomeado para 'usuario'
+@Table(name = "usuario") 
 @Component
 public class Usuario {
     @Id
